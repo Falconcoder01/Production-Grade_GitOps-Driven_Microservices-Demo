@@ -5,19 +5,19 @@ metadata:
   namespace: logging
 spec:
   hostnames:
-    - "kibana.dsvault.in"
+    - "kibana.utkarshmishra.online"
   parentRefs:
-  - group: gateway.networking.k8s.io
-    namespace: default
-    kind: Gateway
-    name: app-alb-gateway
-    sectionName: http
-  - group: gateway.networking.k8s.io
-    namespace: default
-    kind: Gateway
-    name: app-alb-gateway
-    sectionName: https
+    - group: gateway.networking.k8s.io
+      namespace: default
+      kind: Gateway
+      name: app-alb-gateway
+      sectionName: http
+    - group: gateway.networking.k8s.io
+      namespace: default
+      kind: Gateway
+      name: app-alb-gateway
+      sectionName: https
   rules:
-  - backendRefs:
-    - name: eck-kibana-kb-http
-      port: 5601
+    - backendRefs:
+        - name: eck-kibana-kb-http
+          port: 5601

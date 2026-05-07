@@ -5,19 +5,19 @@ metadata:
   namespace: monitoring
 spec:
   hostnames:
-    - "prometheus.dsvault.in"
+    - "prometheus.utkarshmishra.online"
   parentRefs:
-  - group: gateway.networking.k8s.io
-    namespace: default
-    kind: Gateway
-    name: app-alb-gateway
-    sectionName: http
-  - group: gateway.networking.k8s.io
-    namespace: default
-    kind: Gateway
-    name: app-alb-gateway
-    sectionName: https
+    - group: gateway.networking.k8s.io
+      namespace: default
+      kind: Gateway
+      name: app-alb-gateway
+      sectionName: http
+    - group: gateway.networking.k8s.io
+      namespace: default
+      kind: Gateway
+      name: app-alb-gateway
+      sectionName: https
   rules:
-  - backendRefs:
-    - name: kube-prometheus-stack-prometheus
-      port: 9090
+    - backendRefs:
+        - name: kube-prometheus-stack-prometheus
+          port: 9090
