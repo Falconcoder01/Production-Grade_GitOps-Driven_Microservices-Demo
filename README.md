@@ -169,3 +169,53 @@ There is **NO dedicated “orders database”**.
 
 ![Gitops Project.drawio.png](docs/images/Gitops_Project.png)
 ---
+
+# GitHub Actions CI pipeline 
+
+![CI pipeline](docs/images/Screenshot%202026-05-08%20005129.png)
+---
+
+# ArgoCD 
+
+![ArgoCD](docs/images/Screenshot%202026-05-08%20013318.png)
+
+## ArgoCD image updater updating the latest push image tag 
+
+![ArgoCD](docs/images/Screenshot%202026-05-08%20014233.png)
+---
+
+# app running on domain with secured connection 
+
+![ArgoCD](docs/images/Screenshot%202026-05-08%20014445.png)
+---
+
+# Grafana Dashboard
+
+![ArgoCD](docs/images/Screenshot%202026-05-08%20020656.png)
+![ArgoCD](docs/images/Screenshot%202026-05-08%20020810.png)
+![ArgoCD](docs/images/Screenshot%202026-05-08%20020937.png)
+---
+
+# Promethus
+
+![promethus](docs/images/Screenshot%202026-05-08%20021200.png)
+![promethus](docs/images/Screenshot%202026-05-08%20021307.png)
+---
+
+# Logging
+# Kibana Dashboard 
+
+![kibana](docs/images/Screenshot%202026-05-08%20025131.png)
+![kibana](docs/images/Screenshot%202026-05-08%20025411.png)
+![kibana](docs/images/Screenshot%202026-05-08%20025620.png)
+---
+
+# Slack channel for alertmanager
+
+![kibana](docs/images/Screenshot%202026-05-08%20025946.png)
+---
+
+# Recordset update by External DNS in Route53
+
+![DNS](docs/images/Screenshot%202026-05-08%20025822.png)
+---
